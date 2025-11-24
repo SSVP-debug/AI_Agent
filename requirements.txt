@@ -1,0 +1,4 @@
+openai>=1.0.0
+python-dotenv
+gradio>=3.30
+fpdf>=1.7.2
