@@ -33,4 +33,5 @@ with gr.Blocks(title="Strategic Co-Founder Agent") as demo:
         gr.Markdown("Memory displays the most recent saved snippets (persisted in memory.json).")
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860)
+
