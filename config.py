@@ -46,7 +46,7 @@ def load_settings() -> Settings:
 
     return Settings(
         gemini_api_key=gemini_api_key,
-        gemini_model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip(),
+        gemini_model=os.getenv("GEMINI_MODEL", "gemini-3.6-flash").strip(),
         tavily_api_key=tavily_api_key,
         output_dir=os.getenv("OUTPUT_DIR", "output").strip(),
         llm_max_retries=max_retries,
